@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.container {
+    position: relative;
+    top: 50px;
+}
+
+.c-posicion {
+    position: relative;
+    top: 25px;
+
+}
+
+.d-dueno{
+    position: relative;
+    top: 50px;
+}
+
+.d-insumos{
+    position: relative;
+    top: 75px;
+}

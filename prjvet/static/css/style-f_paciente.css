@@ -1,0 +1,45 @@
+body{
+    background-color: aliceblue;
+    text-align: center;
+}
+
+
+.d-encabezado{
+    display: inline-flex;
+    gap: 20px;
+    position: relative;
+    top: 30px;
+}
+
+
+h3{
+    position: relative;
+    top: 20px;
+}
+
+input{
+    border: 1px solid #9c5edc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+select{
+    margin-bottom: 20px;
+    border: 1px solid #9c5edc;
+     border-radius: 5px;
+}
+
+
+form{
+    position: relative;
+    top: 50px;
+}
+
+.b-submit{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+}
+
+

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="">
+    <title>{% block titulo %}{% endblock %}</title>
+</head>
+<body>
+<!--EL ARCHIVO BASE VA POR FUERA, EN LA CARPETA TEMPLATE-->
+    <h3> {% block titulo_principal %}{% endblock %} </h3>
+    <h4> {% block titulo_secundario %}{% endblock %}</h4>
+    {% block principal %}{% endblock %}
+    <footer>
+        <small>&copy; Proyecto Admin v1.0 </small>
+    </footer>
+
+</body>
+</html>
+
+
+
