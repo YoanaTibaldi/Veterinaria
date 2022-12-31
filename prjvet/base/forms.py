@@ -26,6 +26,7 @@ class PacienteAnimal(forms.Form):
 #     password = forms.PasswordInput(label='Contraseña')
 
 
+
 class Dueno_Paciente(forms.Form):
     nombre = forms.CharField(label='Nombre', max_length=150)
     apellido = forms.CharField(label='Apellido', max_length=150)
